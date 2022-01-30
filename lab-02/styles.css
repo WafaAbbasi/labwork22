@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+}
+nav {
+  display: flex;
+	flex-direction: column;
+	background-color: #F9F1F1;
+	flex-basis: 15vw;
+	flex-shrink: 0;
+}
+
+nav a {
+	color: #07090B;
+	padding: 0.50em 0.17em;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+nav a:hover {
+	background-color: #C13BB8;
+}
+
+header, section, main {
+	overflow: auto;
+}
+
+
+header, section {
+	padding: 0 1.5em;
+}
+
+header {
+	background-color: #F9F0F8;
+}
+
+nav, main {
+	box-sizing: border-box;
+}
+
+section {
+	background-color: #FE94F7;
+	color: #07090B;
+	overflow: auto;
+}
+
+main {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#target {
+	background-color: white;
+	color: black;
+	border: 2.5px solid black;
+	padding: 0 0.7em;
+}
